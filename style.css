@@ -1,0 +1,146 @@
+body
+{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height:10vh;
+    width: 100vw;
+}
+
+
+/* ______________________________________ RACCOURCIS_______________________________________ */
+
+
+.contenu>article
+{
+    border: 4px solid black;
+}
+
+.contenu
+{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.facebook
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.flex
+{
+    display: flex;
+}
+
+.align
+{
+    align-items: center;
+}
+
+.justify
+{
+    justify-content: center;
+}
+
+.facebook
+{
+    background-color: rgb(105, 172, 105);
+}
+
+.twitter
+{
+    background-color: rgb(209, 209, 68);
+}
+
+.instagram
+{
+    background-color: rgb(206, 70, 70);
+}
+
+.snapchat
+{
+    background-color: rgb(209, 104, 66);
+}
+
+.fontsize
+
+{
+    font-size: 80px;
+}
+
+/* ______________________________________ ANIMATIONS ICÔNES_______________________________________ */
+
+.fa-facebook-f{
+color: #f700e3;
+animation-duration: 5s;
+animation-name: facebook;
+animation-iteration-count: infinite;
+}
+
+.fa-twitter{
+color: #00f70c;
+animation-duration: 5s;
+animation-name: twitter;
+animation-iteration-count: infinite;
+}
+
+.fa-instagram{
+color: #003af7;
+animation-duration: 5s;
+animation-name: snapchat;
+animation-iteration-count: infinite;
+}
+
+.fa-snapchat-ghost{
+color: #F7F400;
+animation-duration: 5s;
+animation-name: snapchat;
+animation-iteration-count: infinite;
+}
+
+@keyframes facebook
+{
+0%{color: #f700e3;}
+25%{color: #8004e6;}
+50%{color: #099bf0;}
+75%{color: #0fe28a;}
+100%{color: #d2f700;}
+}
+
+@keyframes twitter
+{
+0%{color:#00f70c;}
+25%{color:#00f7d6;}
+50%{color: #006bf7;}
+75%{color: #9c00f7;}
+100%{color:#f7003e;}
+}
+
+@keyframes instagram
+{
+0%{color: #f700eb ;}
+25%{color:#f70000 ;}
+50%{color: #f78c00;}
+75%{color:#d2f700 ;}
+100%{color:#00f736 ;}
+}
+
+@keyframes snapchat
+{
+0%{color:#F7F400 ;}
+25%{color:#5bf700 ;}
+50%{color:#00f7d6 ;}
+75%{color: #0056f7;}
+100%{color:#ef00f7 ;}
+}
+
+/* ______________________________________ ANIMATIONS ICÔNES_______________________________________ */
